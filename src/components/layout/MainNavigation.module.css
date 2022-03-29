@@ -1,0 +1,29 @@
+.header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: inline;
+    font-weight: 800;
+    font-size: 1.75rem;
+  }
+  
+  .header ul {
+    display: flex;
+    column-gap: 1rem;;
+  }
+  
+  .header li {
+    list-style-type: none;
+  }
+  
+  .link {
+    color: #ddd;
+    font-size: .95rem;
+    text-decoration: none;
+  }
