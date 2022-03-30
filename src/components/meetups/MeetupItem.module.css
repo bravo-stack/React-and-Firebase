@@ -1,5 +1,5 @@
 .item {
-    margin: 1rem 0;
+    margin: 1rem 1rem 4rem;
 }
 
 .image {
@@ -10,9 +10,22 @@
     border-top-left-radius: 6px;
 }
 
+.wrap {
+    border: 2px solid #fff;
+    border-top: 0px;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding: 1rem;
+}
+
 .image img {
     width: 100%;
     object-fit: cover;
+    transition: .4s;
+}
+
+.image img:hover {
+    transform: scale(1.1);
 }
 
 .content {
@@ -38,9 +51,11 @@
     background-color: transparent;
     padding: 0.5rem 1.5rem;
     border-radius: 4px;
+    transition: all .4s;
 }
 
 .actions button:hover,
 .actions button:active {
-    background-color: #ffe2ed;
+    background-color: #77002e;
+    color: #fff;
 }

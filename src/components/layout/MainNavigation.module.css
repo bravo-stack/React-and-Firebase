@@ -27,3 +27,7 @@
     font-size: .95rem;
     text-decoration: none;
   }
+
+  .link:hover {
+    color: #d5b0be;
+  }

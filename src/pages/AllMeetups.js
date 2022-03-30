@@ -6,15 +6,15 @@ const AllMeetups = () => {
         {
             id: "m1",
             title: "This is a first meetup",
-            image: "./../../public/desk.png",
+            image: `${process.env.PUBLIC_URL}/assets/images/desk.jpg`,
             description: "This is a first, amazing meetup which you definitely should not miss. It will be fire",
             address: "Meetupstreet 5, 12345 Meetup City"
         }, 
         {
             id: "m2",
             title: "This is a second meetup",
-            image: "./../../public/desk.png",
-            description: "This is a first, amazing meetup which you definitely should not miss. It will be fire",
+            image: `${process.env.PUBLIC_URL}/assets/images/feed.jpg`,
+            description: "This is the second, amazing meetup which you definitely should not miss. It will be fire too",
             address: "Meetupstreet 5, 12345 Meetup City"
         }
     ]
