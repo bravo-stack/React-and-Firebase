@@ -8,7 +8,6 @@ const NewMeetupForm = ({addMeetup}) => {
     const addressInputRef = useRef()
     const descriptionInputRef = useRef()
 
-
     const submitHandler = (e) => {
         e.preventDefault()
 
@@ -25,11 +24,7 @@ const NewMeetupForm = ({addMeetup}) => {
         }
 
         addMeetup(newMeetupData)
-
-        titleInputRef.current.value = ""
-        imageInputRef.current.value = ""
-        addressInputRef.current.value = ""
-        descriptionInputRef.current.value = ""
+        
     }
 
 
